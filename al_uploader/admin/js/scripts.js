@@ -1,5 +1,5 @@
 jQuery(function ($) {
-    $("[href='#al_uploader_anchor']").click(function () {
+    $("[href='#al_uploader_anchor']").on('click',function () {
         var elem = $(this);
         var img_wrap = $('.al_uploader-img-wrap');
         var input = img_wrap.parent().find('input');
